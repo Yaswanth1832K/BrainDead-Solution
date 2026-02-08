@@ -1,0 +1,16 @@
+BrainDead 2K26 – Model Checkpoint Links
+
+The trained model weights for the Cognitive Radiology Second Reader are hosted externally due to GitHub size limitations.
+
+Encoder (PRO-FA) weights:
+https://drive.google.com/file/d/1MbaS5USiJ894qE6GVpOKc-OYxdj9OIlg/view?usp=drive_link
+
+Classifier (MIX-MLP) weights:
+https://drive.google.com/file/d/1WQF4jxQo6w6h6KI8VAiJHVB9-k_j1Jmu/view?usp=drive_link
+
+Decoder (RCTA) weights:
+https://drive.google.com/file/d/1XNe22T1LzX0zpnSsyL5oqG6kYET9jcVq/view?usp=drive_link
+
+Instructions:
+Download the files and place them in the project root directory.
+The inference notebook will automatically load them for report generation.
