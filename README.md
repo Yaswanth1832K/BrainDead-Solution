@@ -2,7 +2,7 @@
 ### Revelation 2026 – IIEST Shibpur
 
 This repository contains our solutions for **both problem statements** of the BrainDead Hackathon.
-
+Problem Statement 2 followed by Problem Statement 1
 ---
 
 # 🩺 Problem Statement 2 : Cognitive Radiology Second Reader
