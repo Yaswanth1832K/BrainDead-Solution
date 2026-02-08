@@ -5,7 +5,7 @@ This repository contains our solutions for **both problem statements** of the Br
 
 ---
 
-# 🩺 Problem Statement 2 (Main): Cognitive Radiology Second Reader
+# 🩺 Problem Statement 2 : Cognitive Radiology Second Reader
 ## AI Radiology Report Generation from Chest X-Ray Images
 
 ### Objective
