@@ -1,6 +1,0 @@
-This repository demonstrates a complete cognitive radiology pipeline.
-
-Model weights are not provided due to dataset restrictions.
-The notebook shows full inference workflow and structured report generation.
-
-Demo video link: (paste your video)
