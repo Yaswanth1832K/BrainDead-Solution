@@ -1,1 +1,7 @@
 # Python dependencies
+pandas
+numpy==1.26.4
+matplotlib
+seaborn
+scikit-learn
+scikit-surprise
