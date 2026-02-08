@@ -61,6 +61,12 @@ Our model predicts multiple diseases from the organ-level features:
 
 This diagnosis-first approach prevents hallucinated reports and improves clinical reliability.
 
+### Medical Ontology Alignment (RadLex)
+
+Predicted diseases are mapped to anatomical regions using a RadLex-style anatomical alignment. 
+This provides semantic grounding between visual features and clinical terminology, improving interpretability and reducing hallucination risk.
+
+
 ---
 
 ### 3️⃣ RCTA — Cognitive Report Generation
@@ -75,6 +81,9 @@ The final output is a structured clinical report containing:
 
 This mirrors how radiologists write reports in practice.
 
+Unlike conventional image captioning systems, our model first predicts clinical conditions and then generates a report conditioned on verified medical hypotheses. This preserves clinical reasoning structure rather than producing descriptive captions.
+
+
 ---
 
 ## Cognitive Workflow
@@ -88,9 +97,20 @@ This demonstrates **cognitive simulation rather than black-box captioning**.
 ---
 
 ## Demo Instructions
-Open the notebook: notebooks/radiology_demo.ipynb
+## How to Run
 
-Run the notebook in Google Colab and click **Runtime → Run All**.
+1. Clone the repository
+2. Install dependencies
+
+pip install -r requirements.txt
+
+3. Open Google Colab
+4. Upload repository
+5. Open: notebooks/cognitive_radiology_report_generator.ipynb
+6. Run all cells
+
+The system will generate a structured radiology report from a chest X-ray image.
+
 
 The notebook will:
 
@@ -113,7 +133,8 @@ BrainDead-Solution/
 ├── training/ # training strategy
 ├── evaluation/ # clinical evaluation description
 ├── notebooks/
-│ └── radiology_demo.ipynb
+│ └── cognitive_radiology_report_generator.ipynb
+  └── reelsense_recommender.ipynb
 │
 ├── requirements.txt
 └── README.md
@@ -136,7 +157,9 @@ The repository includes:
 - evaluation metrics
 - inference notebook
 
-The architecture is directly trainable on MIMIC-CXR and IU-Xray datasets.
+The framework is designed to be compatible with MIMIC-CXR and IU-Xray dataset formats. 
+Due to hackathon time and compute constraints, the submission demonstrates a complete inference pipeline and a training-ready modular architecture(IU-Xray dataset is used).
+
 
 ---
 
@@ -148,6 +171,14 @@ ReelSense is an explainable and diversity-aware movie recommendation system buil
 The system focuses on **trustworthy recommendations**, not just rating prediction.
 
 ---
+
+### Dataset
+MovieLens Latest Small
+100,836 ratings
+610 users
+9,742 movies
+Includes ratings, tags, and genre metadata.
+
 
 ## Implemented Recommendation Models
 - Popularity-based recommender
@@ -195,4 +226,12 @@ This submission demonstrates interpretable AI systems in two domains:
 **Recommender Systems** – trustworthy and explainable recommendations
 
 The common goal of both solutions is improving **trust, transparency, and reliability in AI systems**.
+
+## Execution Environment
+Developed and tested using:
+- Google Colab (Python 3.10)
+- PyTorch
+- CPU/GPU compatible
+- No proprietary resources required
+
 
