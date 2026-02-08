@@ -123,21 +123,31 @@ The notebook will:
 
 ## Repository Structure
 BrainDead-Solution/
-│
-├── data/ # preprocessing documentation
+├── data/
+│   ├── .gitkeep
+│   └── data_pipeline.md
+├── evaluation/
+│   ├── .gitkeep
+│   └── clinical_evaluation.md
 ├── models/
-│ ├── encoder.py # PRO-FA implementation
-│ ├── classifier.py # MIX-MLP implementation
-│ └── decoder.py # RCTA report generator
-│
-├── training/ # training strategy
-├── evaluation/ # clinical evaluation description
+│   ├── architecture.md
+│   ├── classifier.py
+│   ├── decoder.py
+│   └── encoder.py
 ├── notebooks/
-│ └── cognitive_radiology_report_generator.ipynb
-  └── reelsense_recommender.ipynb
-│
+│   ├── assets/
+│   │   └── iu_xray.png
+│   ├── .gitkeep
+│   └── radiology_demo.ipynb
+├── PS1_ReelSense/
+│   ├── .gitkeep
+│   └── reelsense_recommender.ipynb
+├── training/
+│   ├── .gitkeep
+│   └── training_strategy.md
+├── README.md
 ├── requirements.txt
-└── README.md
+└── submission.txt
 
 
 ---
