@@ -1,6 +1,4 @@
 """
-data_pipeline.py
-
 Data preparation pipeline for Cognitive Radiology Second Reader.
 Compatible with IU-Xray and MIMIC-CXR dataset structure.
 This script demonstrates how clinical datasets would be prepared
