@@ -122,13 +122,14 @@ The notebook will:
 ---
 
 ## Repository Structure
-BrainDead-Solution/
+BrainDead-Solution/ 
 ├── data/
 │   ├── .gitkeep
-│   └── data_pipeline.md
+│   └── data_pipeline.py
 ├── evaluation/
 │   ├── .gitkeep
-│   └── clinical_evaluation.md
+│   ├── clinical_metrics.py
+│   └── nlg_metrics.py
 ├── models/
 │   ├── architecture.md
 │   ├── classifier.py
@@ -138,15 +139,16 @@ BrainDead-Solution/
 │   ├── assets/
 │   │   └── iu_xray.png
 │   ├── .gitkeep
-│   └── radiology_demo.ipynb
+│   ├── cognitive_radiology_report_generator.ipynb
+│   └── reelsense_recommender.ipynb
 ├── PS1_ReelSense/
 │   ├── .gitkeep
 │   └── reelsense_recommender.ipynb
 ├── training/
 │   ├── .gitkeep
-│   └── training_strategy.md
+│   └── train.py
 ├── README.md
-├── requirements.txt
+└── requirements.txt
 └── submission.txt
 
 
