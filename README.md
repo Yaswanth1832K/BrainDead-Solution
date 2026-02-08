@@ -128,6 +128,16 @@ BrainDead-Solution/
 - Reproducible end-to-end pipeline
 - Avoids black-box encoder-decoder captioning
 
+## Reproducibility
+
+The repository includes:
+- data pipeline for clinical datasets
+- training loop
+- evaluation metrics
+- inference notebook
+
+The architecture is directly trainable on MIMIC-CXR and IU-Xray datasets.
+
 ---
 
 # 🎬 Problem Statement 1: ReelSense – Explainable Movie Recommender
