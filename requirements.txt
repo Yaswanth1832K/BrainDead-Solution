@@ -1,4 +1,8 @@
 torch
 torchvision
-pillow
-transformers
+numpy
+pandas
+matplotlib
+scikit-learn
+nltk
+Pillow
