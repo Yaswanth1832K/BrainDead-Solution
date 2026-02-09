@@ -8,6 +8,9 @@ Problem Statement 2 followed by Problem Statement 1
 # 🩺 Problem Statement 2 : Cognitive Radiology Second Reader
 ## AI Radiology Report Generation from Chest X-Ray Images
 
+DEMO VIDEO LINK:
+https://www.loom.com/share/dc78f0d629994ba0adde62614fda7b8b
+
 ### Objective
 Radiologists often experience fatigue while reviewing large volumes of medical images.  
 Our goal is to build an AI **Second Reader** that assists doctors by automatically analyzing a chest X-ray and drafting a structured clinical report.
